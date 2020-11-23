@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> A simple from test </title>
+</head>
+<body>
+	<h1> Course Regstation From </h1>
+	<form>
+		<datalist id="names">
+			            <option value="leeabida"> leeabida </option>
+			            <option value="leeabidb"> leeabidb </option>
+			            <option value="leeabidc"> leeabidc </option>
+		</datalist>
+			           
+		
+		<fieldset>
+			<legend> Personal Information </legend>
+			       <b> First Name: </b> <input type="text" required placeholder="first name" name="textbox1" size="20"> <br/>
+		           <b> Last Name: </b> <input type="text" required placeholder="last name" name="textbox2" size="20"> <br/>
+		           <b> User Name: </b> <input type="text" list="names" placeholder="username" required name="username"> <br/>
+		           <b> Email: </b> <input type="Email" placeholder="email@gmail.com" required name="Email"> <br/>
+		           <b> Password: </b> <input type="Password" placeholder="******" required name="pdw" size="8"> <br/>
+		           <b> Gender:   </b> <input type="radio" name="gender" value="male"> Male
+		                              <input type="radio" name="gender" value="female"> Female
+		                              <input type="radio" name="gender" value="third gender"> Third Gender <br/><br/>
+                   <b> Religion: </b> <input type="checkbox" name="Religion" value="islam"> Islam
+                                      <input type="checkbox" name="Religion" value="hindu"> Hindu
+                                      <input type="checkbox" name="Religion" value="others"> Others
+		</fieldset> <br/><br/><br/>
+
+		            <b> Department: </b>
+		              <select required name="Department">
+			            <option> CSE </option>
+			            <option> CS </option>
+			            <option> EEE </option>
+			            <option> BBA </option>
+		</select>
+		<p><b> Comment: </b></p>
+		<textarea required placeholder="Start here..." name="text1"; rows="10"; cols="60"></textarea> <br/><br/>
+	    <input type="submit" value="Submit">
+		<input type="submit" value="sign up">
+		<input type="reset" name="Reset">
+
+	</form>
+
+</body>
+</html>
